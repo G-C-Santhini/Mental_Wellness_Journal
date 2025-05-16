@@ -1,0 +1,84 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url('images/bgimg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px;
+  margin: 0;
+}
+
+.container {
+  background-color: transparent;
+  border-radius: 15px;
+  padding: 25px;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+  color: #6a1b9a;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  color: #333;
+}
+
+select, textarea {
+  width: 100%;
+  margin-top: 5px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+button {
+  margin-top: 15px;
+  width: 100%;
+  background-color: #8e24aa;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #6a1b9a;
+}
+
+#journalLog {
+  margin-top: 20px;
+  background: #f3e5f5;
+  padding: 15px;
+  border-radius: 10px;
+  max-height: 300px;
+  overflow-y: auto;
+  font-size: 14px;
+}
+
+#journalLog button {
+  background-color: #e53935;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 8px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+#journalLog button:hover {
+  background-color: #c62828;
+}
